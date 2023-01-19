@@ -1,11 +1,4 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.SmallDiamond)
-    basic.showIcon(IconNames.Diamond)
-    basic.showIcon(IconNames.SmallDiamond)
-    basic.showIcon(IconNames.Diamond)
-    basic.showIcon(IconNames.Chessboard)
-    basic.showIcon(IconNames.SmallSquare)
-    basic.showIcon(IconNames.Square)
-    basic.showIcon(IconNames.SmallSquare)
-    basic.showIcon(IconNames.Square)
+let randomletter = 0
+input.onGesture(Gesture.Shake, function () {
+    randomletter = 5
 })
