@@ -1,4 +1,9 @@
-let randomletter = 0
-input.onGesture(Gesture.Shake, function () {
-    randomletter = 5
+input.onButtonPressed(Button.AB, function () {
+    basic.showLeds(`
+        . # # # .
+        . # . # .
+        . # # . .
+        . . . . .
+        . . # . .
+        `)
 })
