@@ -1,7 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";(C!;+y`!n33113T(|9a">randomletter</variable><variable id="FHkG6z`s?oYm0t7Ur:u+">myImage</variable></variables><block type="device_button_event" id="Ks/InvRIKTGE:Xm?xZ-h" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="4-o8;t5*Om$K(1WW98JS"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";(C!;+y`!n33113T(|9a">randomletter</variable><variable id="FHkG6z`s?oYm0t7Ur:u+">myImage</variable></variables><block type="device_button_event" id="Ks/InvRIKTGE:Xm?xZ-h" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="controls_repeat_ext" id=",u%R:oUNX@eFlfC^UB`X"><value name="TIMES"><shadow type="math_whole_number" id="d%O[0?|{r1v@G.+.ov`l"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="4-o8;t5*Om$K(1WW98JS"><field name="LEDS">`
         . # # # . 
-        . # . # . 
-        . # # . . 
+        # . . . # 
+        . . # # . 
         . . . . . 
         . . # . .
-        `</field></block></statement></block></xml>
+        `</field></block></statement></block></statement></block></xml>
