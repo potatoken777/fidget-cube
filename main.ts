@@ -1,3 +1,4 @@
+let letter = 0
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 10; index++) {
         basic.showString("A", 5)
@@ -16,10 +17,9 @@ basic.showString("D", 5)
         basic.showString("D")
     }
 })
-let letter = 0
-let question = 0
-basic.forever(function () {
-    basic.showLeds(`
+input.onButtonPressed(Button.AB, function () {
+    for (let index = 0; index < 100; index++) {
+        basic.showLeds(`
             . # # # .
             # . . . #
             . . # # .
@@ -27,5 +27,10 @@ basic.forever(function () {
             . . # . .
             `, 10)
 basic.pause(100)
-    basic.clearScreen()
+        basic.clearScreen()
+        basic.pause(100)
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showString("hi")
 })
