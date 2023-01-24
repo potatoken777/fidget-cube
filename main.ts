@@ -18,7 +18,7 @@ basic.showString("D", 5)
     }
 })
 input.onButtonPressed(Button.AB, function () {
-    for (let index = 0; index < 100; index++) {
+    for (let index = 0; index < 50; index++) {
         basic.showLeds(`
             . # # # .
             # . . . #
@@ -32,5 +32,5 @@ basic.pause(100)
     }
 })
 input.onButtonPressed(Button.B, function () {
-    basic.showString("hi")
+    basic.showString("Hi")
 })
